@@ -1,0 +1,6 @@
+[submodule "external/grapejs"]
+	path = external/grapejs
+	url = https://github.com/GrapesJS/grapesjs.git
+[submodule "external/QScintilla"]
+	path = external/QScintilla
+	url = https://github.com/brCreate/QScintilla.git
