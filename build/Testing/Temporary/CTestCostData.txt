@@ -1,0 +1,4 @@
+integration.kodesigner 2 0.554569
+integration.kodesigner_file_workflow 1 1.09389
+integration.kodesigner_html_import_export 1 1.65627
+---

@@ -1,0 +1,29 @@
+{
+	"BUILD_DIR" : "/home/thabiso-raphael/Documents/kogence-ide/build/tests/integration/test_main_window_autogen",
+	"CMAKE_BINARY_DIR" : "/home/thabiso-raphael/Documents/kogence-ide/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/thabiso-raphael/Documents/kogence-ide/build/tests/integration",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/thabiso-raphael/Documents/kogence-ide/tests/integration",
+	"CMAKE_SOURCE_DIR" : "/home/thabiso-raphael/Documents/kogence-ide",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/home/thabiso-raphael/Documents/kogence-ide/build/tests/integration/test_main_window_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/thabiso-raphael/Documents/kogence-ide/src/panels/kodesigner/web/designer.css",
+		"/home/thabiso-raphael/Documents/kogence-ide/src/panels/kodesigner/web/designer.js",
+		"/home/thabiso-raphael/Documents/kogence-ide/src/panels/kodesigner/web/index.html",
+		"/home/thabiso-raphael/Documents/kogence-ide/src/panels/kodesigner/assets/grapes.min.js",
+		"/home/thabiso-raphael/Documents/kogence-ide/src/panels/kodesigner/assets/grapes.min.css"
+	],
+	"LOCK_FILE" : "/home/thabiso-raphael/Documents/kogence-ide/build/tests/integration/CMakeFiles/test_main_window_autogen.dir/AutoRcc_kodesigner_WIV3B7YOJL_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "kodesigner" ],
+	"OUTPUT_CHECKSUM" : "WIV3B7YOJL",
+	"OUTPUT_NAME" : "qrc_kodesigner.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/thabiso-raphael/Documents/kogence-ide/build/tests/integration/CMakeFiles/test_main_window_autogen.dir/AutoRcc_kodesigner_WIV3B7YOJL_Used.txt",
+	"SOURCE" : "/home/thabiso-raphael/Documents/kogence-ide/src/panels/kodesigner/kodesigner.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

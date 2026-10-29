@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/kogence">
+        <file alias="styles/kogence-metal.qss">../styles/kogence-metal.qss</file>
+    </qresource>
+</RCC>

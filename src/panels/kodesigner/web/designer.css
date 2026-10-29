@@ -1,0 +1,167 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #111315;
+  color: #e7e9ec;
+  font: 13px "Noto Sans", "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+select {
+  min-height: 28px;
+  border: 1px solid #454b52;
+  border-radius: 3px;
+  background: #202327;
+  color: #e7e9ec;
+  padding: 4px 9px;
+}
+
+button:hover,
+select:hover {
+  border-color: #70afc4;
+  background: #292d32;
+}
+
+.toolbar {
+  display: flex;
+  height: 44px;
+  align-items: center;
+  gap: 7px;
+  padding: 0 10px;
+  border-bottom: 1px solid #454b52;
+  background: #191c1f;
+}
+
+.brand {
+  margin-right: 8px;
+  color: #e7a25d;
+  font-size: 14px;
+}
+
+.toolbar-spacer {
+  flex: 1;
+}
+
+.device-control {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #b6bbc1;
+}
+
+.workspace {
+  display: grid;
+  width: 100%;
+  height: calc(100% - 44px);
+  grid-template-columns: minmax(175px, 220px) minmax(250px, 1fr) minmax(210px, 270px);
+}
+
+.sidebar {
+  min-width: 0;
+  overflow: auto;
+  background: #191c1f;
+}
+
+.sidebar-left {
+  border-right: 1px solid #454b52;
+}
+
+.sidebar-right {
+  border-left: 1px solid #454b52;
+}
+
+.sidebar-section {
+  padding: 10px 8px;
+  border-bottom: 1px solid #34393e;
+}
+
+.sidebar-section h2 {
+  margin: 0 0 8px;
+  color: #d5d8dc;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+#gjs {
+  min-width: 0;
+  height: 100%;
+}
+
+.runtime-error {
+  padding: 10px;
+  background: #5a2828;
+  color: #fff;
+}
+
+.export-dialog {
+  position: fixed;
+  z-index: 20;
+  inset: 8% 8%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #60666d;
+  background: #17191c;
+  box-shadow: 0 10px 40px #000b;
+}
+
+.export-dialog[hidden] {
+  display: none;
+}
+
+.export-heading {
+  display: flex;
+  min-height: 42px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 10px;
+  border-bottom: 1px solid #454b52;
+}
+
+.export-fields {
+  display: grid;
+  min-height: 0;
+  flex: 1;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  padding: 8px;
+}
+
+.export-fields label {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 5px;
+  color: #c4c8cd;
+}
+
+.export-fields textarea {
+  width: 100%;
+  min-height: 0;
+  flex: 1;
+  resize: none;
+  border: 1px solid #454b52;
+  background: #0d0f11;
+  color: #e7e9ec;
+  padding: 8px;
+  font: 12px "DejaVu Sans Mono", monospace;
+  tab-size: 2;
+}
+
+@media (max-width: 760px) {
+  .workspace {
+    grid-template-columns: minmax(120px, 1fr) minmax(180px, 2fr);
+  }
+
+  .sidebar-right {
+    display: none;
+  }
+}

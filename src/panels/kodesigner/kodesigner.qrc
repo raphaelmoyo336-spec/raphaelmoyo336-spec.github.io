@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="kodesigner/index.html">web/index.html</file>
+        <file alias="kodesigner/designer.js">web/designer.js</file>
+        <file alias="kodesigner/designer.css">web/designer.css</file>
+        <file alias="kodesigner/assets/grapes.min.js">assets/grapes.min.js</file>
+        <file alias="kodesigner/assets/grapes.min.css">assets/grapes.min.css</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/test_main_window.dir/link.d"
+  "CMakeFiles/test_main_window_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/test_main_window_autogen.dir/ParseCache.txt"
+  "test_main_window_autogen"
+  "CMakeFiles/test_main_window.dir/__/__/src/app/mainwindow.cpp.o"
+  "CMakeFiles/test_main_window.dir/__/__/src/app/mainwindow.cpp.o.d"
+  "CMakeFiles/test_main_window.dir/__/__/src/app/thememanager.cpp.o"
+  "CMakeFiles/test_main_window.dir/__/__/src/app/thememanager.cpp.o.d"
+  "CMakeFiles/test_main_window.dir/__/__/src/app/themeselectordialog.cpp.o"
+  "CMakeFiles/test_main_window.dir/__/__/src/app/themeselectordialog.cpp.o.d"
+  "CMakeFiles/test_main_window.dir/__/__/src/panels/editor/dartlexer.cpp.o"
+  "CMakeFiles/test_main_window.dir/__/__/src/panels/editor/dartlexer.cpp.o.d"
+  "CMakeFiles/test_main_window.dir/__/__/src/panels/editor/editorpanel.cpp.o"
+  "CMakeFiles/test_main_window.dir/__/__/src/panels/editor/editorpanel.cpp.o.d"
+  "CMakeFiles/test_main_window.dir/__/__/src/panels/editor/fileexplorerwidget.cpp.o"
+  "CMakeFiles/test_main_window.dir/__/__/src/panels/editor/fileexplorerwidget.cpp.o.d"
+  "CMakeFiles/test_main_window.dir/__/__/src/panels/kodesigner/kodesignerpanel.cpp.o"
+  "CMakeFiles/test_main_window.dir/__/__/src/panels/kodesigner/kodesignerpanel.cpp.o.d"
+  "CMakeFiles/test_main_window.dir/__/__/src/panels/preview/previewpanel.cpp.o"
+  "CMakeFiles/test_main_window.dir/__/__/src/panels/preview/previewpanel.cpp.o.d"
+  "CMakeFiles/test_main_window.dir/__/__/src/panels/terminal/terminalpanel.cpp.o"
+  "CMakeFiles/test_main_window.dir/__/__/src/panels/terminal/terminalpanel.cpp.o.d"
+  "CMakeFiles/test_main_window.dir/test_main_window.cpp.o"
+  "CMakeFiles/test_main_window.dir/test_main_window.cpp.o.d"
+  "CMakeFiles/test_main_window.dir/test_main_window_autogen/UKIBSY7YGX/qrc_kogence.cpp.o"
+  "CMakeFiles/test_main_window.dir/test_main_window_autogen/UKIBSY7YGX/qrc_kogence.cpp.o.d"
+  "CMakeFiles/test_main_window.dir/test_main_window_autogen/WIV3B7YOJL/qrc_kodesigner.cpp.o"
+  "CMakeFiles/test_main_window.dir/test_main_window_autogen/WIV3B7YOJL/qrc_kodesigner.cpp.o.d"
+  "CMakeFiles/test_main_window.dir/test_main_window_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/test_main_window.dir/test_main_window_autogen/mocs_compilation.cpp.o.d"
+  "test_main_window"
+  "test_main_window.pdb"
+  "test_main_window_autogen/UKIBSY7YGX/qrc_kogence.cpp"
+  "test_main_window_autogen/WIV3B7YOJL/qrc_kodesigner.cpp"
+  "test_main_window_autogen/mocs_compilation.cpp"
+  "test_main_window_autogen/timestamp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/test_main_window.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

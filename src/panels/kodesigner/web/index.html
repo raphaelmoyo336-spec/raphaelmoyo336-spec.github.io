@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KoDesigner</title>
+    <link rel="stylesheet" href="assets/grapes.min.css" />
+    <link rel="stylesheet" href="designer.css" />
+  </head>
+  <body>
+    <header class="toolbar">
+      <strong class="brand">KoDesigner</strong>
+      <button type="button" data-command="core:undo" title="Undo (Ctrl+Z)">Undo</button>
+      <button type="button" data-command="core:redo" title="Redo (Ctrl+Shift+Z)">Redo</button>
+      <button type="button" data-command="core:preview" title="Toggle preview mode">Preview</button>
+      <label class="device-control">
+        Viewport
+        <select id="device-select" aria-label="Canvas viewport">
+          <option>Desktop</option>
+          <option>Tablet</option>
+          <option>Mobile</option>
+        </select>
+      </label>
+      <span class="toolbar-spacer"></span>
+      <button type="button" id="export-button">HTML / CSS</button>
+    </header>
+
+    <div id="runtime-error" class="runtime-error" role="alert" hidden></div>
+    <main class="workspace">
+      <aside class="sidebar sidebar-left">
+        <section class="sidebar-section">
+          <h2>Components</h2>
+          <div id="blocks"></div>
+        </section>
+        <section class="sidebar-section">
+          <h2>Hierarchy</h2>
+          <div id="layers"></div>
+        </section>
+      </aside>
+      <div id="gjs" aria-label="Visual design canvas"></div>
+      <aside class="sidebar sidebar-right">
+        <section class="sidebar-section">
+          <h2>Styles</h2>
+          <div id="styles"></div>
+        </section>
+        <section class="sidebar-section">
+          <h2>Selectors</h2>
+          <div id="selectors"></div>
+        </section>
+      </aside>
+    </main>
+
+    <section id="export-dialog" class="export-dialog" aria-label="Generated HTML and CSS" hidden>
+      <div class="export-heading">
+        <strong>Generated code</strong>
+        <button type="button" id="close-export">Close</button>
+      </div>
+      <div class="export-fields">
+        <label>HTML<textarea id="html-output" readonly spellcheck="false"></textarea></label>
+        <label>CSS<textarea id="css-output" readonly spellcheck="false"></textarea></label>
+      </div>
+    </section>
+
+    <script src="qrc:///qtwebchannel/qwebchannel.js"></script>
+    <script src="assets/grapes.min.js"></script>
+    <script src="designer.js"></script>
+  </body>
+</html>

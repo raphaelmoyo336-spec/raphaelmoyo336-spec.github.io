@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/thabiso-raphael/Documents/kogence-ide/build/cmake_install.cmake",
+		"/home/thabiso-raphael/Documents/kogence-ide/build/external/qtadvanceddocking/cmake_install.cmake",
+		"/home/thabiso-raphael/Documents/kogence-ide/build/external/qtadvanceddocking/src/cmake_install.cmake",
+		"/home/thabiso-raphael/Documents/kogence-ide/build/tests/cmake_install.cmake",
+		"/home/thabiso-raphael/Documents/kogence-ide/build/tests/unit/cmake_install.cmake",
+		"/home/thabiso-raphael/Documents/kogence-ide/build/tests/integration/cmake_install.cmake",
+		"/home/thabiso-raphael/Documents/kogence-ide/build/tests/stress/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

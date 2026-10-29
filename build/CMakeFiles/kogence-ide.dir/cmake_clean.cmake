@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/kogence-ide.dir/link.d"
+  "CMakeFiles/kogence-ide_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/kogence-ide_autogen.dir/ParseCache.txt"
+  "kogence-ide_autogen"
+  "CMakeFiles/kogence-ide.dir/kogence-ide_autogen/5NJFMZYOTS/qrc_kodesigner.cpp.o"
+  "CMakeFiles/kogence-ide.dir/kogence-ide_autogen/5NJFMZYOTS/qrc_kodesigner.cpp.o.d"
+  "CMakeFiles/kogence-ide.dir/kogence-ide_autogen/F4FAE6NH3Q/qrc_kogence.cpp.o"
+  "CMakeFiles/kogence-ide.dir/kogence-ide_autogen/F4FAE6NH3Q/qrc_kogence.cpp.o.d"
+  "CMakeFiles/kogence-ide.dir/kogence-ide_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/kogence-ide.dir/kogence-ide_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/kogence-ide.dir/src/app/main.cpp.o"
+  "CMakeFiles/kogence-ide.dir/src/app/main.cpp.o.d"
+  "CMakeFiles/kogence-ide.dir/src/app/mainwindow.cpp.o"
+  "CMakeFiles/kogence-ide.dir/src/app/mainwindow.cpp.o.d"
+  "CMakeFiles/kogence-ide.dir/src/app/thememanager.cpp.o"
+  "CMakeFiles/kogence-ide.dir/src/app/thememanager.cpp.o.d"
+  "CMakeFiles/kogence-ide.dir/src/app/themeselectordialog.cpp.o"
+  "CMakeFiles/kogence-ide.dir/src/app/themeselectordialog.cpp.o.d"
+  "CMakeFiles/kogence-ide.dir/src/panels/editor/dartlexer.cpp.o"
+  "CMakeFiles/kogence-ide.dir/src/panels/editor/dartlexer.cpp.o.d"
+  "CMakeFiles/kogence-ide.dir/src/panels/editor/editorpanel.cpp.o"
+  "CMakeFiles/kogence-ide.dir/src/panels/editor/editorpanel.cpp.o.d"
+  "CMakeFiles/kogence-ide.dir/src/panels/editor/fileexplorerwidget.cpp.o"
+  "CMakeFiles/kogence-ide.dir/src/panels/editor/fileexplorerwidget.cpp.o.d"
+  "CMakeFiles/kogence-ide.dir/src/panels/kodesigner/kodesignerpanel.cpp.o"
+  "CMakeFiles/kogence-ide.dir/src/panels/kodesigner/kodesignerpanel.cpp.o.d"
+  "CMakeFiles/kogence-ide.dir/src/panels/preview/previewpanel.cpp.o"
+  "CMakeFiles/kogence-ide.dir/src/panels/preview/previewpanel.cpp.o.d"
+  "CMakeFiles/kogence-ide.dir/src/panels/terminal/terminalpanel.cpp.o"
+  "CMakeFiles/kogence-ide.dir/src/panels/terminal/terminalpanel.cpp.o.d"
+  "kogence-ide"
+  "kogence-ide.pdb"
+  "kogence-ide_autogen/5NJFMZYOTS/qrc_kodesigner.cpp"
+  "kogence-ide_autogen/F4FAE6NH3Q/qrc_kogence.cpp"
+  "kogence-ide_autogen/mocs_compilation.cpp"
+  "kogence-ide_autogen/timestamp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/kogence-ide.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
